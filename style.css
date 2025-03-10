@@ -1,0 +1,118 @@
+@import url("index.html");
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    /*min-height: 100vh;*/
+    background: url(wallpaperflare.com_wallpaper.jpg) no-repeat;
+   background-size: cover;
+    background-position: center;
+}
+.fixed-bottom{
+    min-height: 1vh;
+}
+.header {
+    position: fixed;
+    top: 0;
+    right: 5%;
+    width: 100%;
+    padding: 25px 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color:black;
+}
+
+.logo {
+    position: relative;
+    font-size: 45px;
+    left: 100px;
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    text-transform: initial;
+    transition: .2s;
+}
+
+.navbar a:hover:before {
+    width: 100%;
+}
+
+.iiitr {
+    position: relative;
+    margin-top: 6px;
+    margin-left: -100px;
+}
+
+.para {
+    position: relative;
+    font-weight: 200;
+    font-size: 20px;
+    text-align-last: center;
+    margin-top: 100px;
+    background-color: #fff;
+}
+.heading{
+    background-color: #fff;
+}
+.login{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.navbar .a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.btn{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border: none;
+    text-transform: initial;
+    color: #fff;
+    margin-left: 100px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: -20px;
+}

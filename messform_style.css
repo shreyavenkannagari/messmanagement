@@ -1,0 +1,13 @@
+.container .ln{
+	height:2px;
+	width:350px;
+	background-color:red;
+}
+.container .st{
+	height:2px;
+	width:130px;
+	background-color:red;
+}
+.rd{
+	color:red;
+}
